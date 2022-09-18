@@ -14,6 +14,11 @@ struct Module : Identifiable, Decodable {
     var test : Test
 }
 
+struct ContentInfo {
+    let contentCount : String
+    let duration : String
+}
+
 struct Content : Identifiable, Decodable {
     var id : Int
     var image : String
